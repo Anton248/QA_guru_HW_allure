@@ -1,10 +1,9 @@
-package allure_example;
+package allure_example_github_issue_tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
 
-public class testBase {
+public class TestBase {
 
     @BeforeAll
     static void beforeAll() {
