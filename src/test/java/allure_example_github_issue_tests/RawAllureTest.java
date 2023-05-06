@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static org.openqa.selenium.By.linkText;
 
-public class RawSelenideTest extends TestBase{
+public class RawAllureTest extends TestBase{
 
     @Test
     @DisplayName("Пример без steps, только c Listener")
