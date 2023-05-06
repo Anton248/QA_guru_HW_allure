@@ -19,7 +19,6 @@ public class LambdaTest extends TestBase {
     @Test
     @DisplayName("Пример со steps и лямбдой")
     void searchIssueTest() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
 
         step("Открываем главную страницу Гитхаб", () -> {
             open("/");

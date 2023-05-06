@@ -12,7 +12,6 @@ public class StepsTest extends TestBase{
     @Test
     @DisplayName("Пример со steps, вынесенных в отдельный класс")
     void searchIssueTest() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
 
         BasicSteps steps = new BasicSteps();
 

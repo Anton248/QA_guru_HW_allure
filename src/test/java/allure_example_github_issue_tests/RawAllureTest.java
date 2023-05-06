@@ -16,7 +16,6 @@ public class RawAllureTest extends TestBase{
     @Test
     @DisplayName("Пример без steps, только c Listener")
     void searchIssueTest() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
 
         open("/"); //opening Github
         $(".header-search-input").setValue("eroshenkoam/allure-example")
